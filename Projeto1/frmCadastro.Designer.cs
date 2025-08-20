@@ -50,7 +50,7 @@
             // 
             // txtPesquisar
             // 
-            this.txtPesquisar.Location = new System.Drawing.Point(307, 96);
+            this.txtPesquisar.Location = new System.Drawing.Point(319, 96);
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(100, 20);
             this.txtPesquisar.TabIndex = 1;
@@ -97,6 +97,7 @@
             this.btnSalvar.TabIndex = 7;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // dvgCadastro
             // 
@@ -105,6 +106,7 @@
             this.dvgCadastro.Name = "dvgCadastro";
             this.dvgCadastro.Size = new System.Drawing.Size(240, 150);
             this.dvgCadastro.TabIndex = 8;
+            this.dvgCadastro.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dvgCadastro_MouseDoubleClick);
             // 
             // frmCadastro
             // 
